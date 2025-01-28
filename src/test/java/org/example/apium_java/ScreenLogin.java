@@ -24,4 +24,10 @@ public class ScreenLogin {
     @iOSFindBy(accessibility = "1231")
     private RemoteWebElement loginbutton;
 
+    public void logar(){
+        campoemail.sendKeys("qazando@gmail.com");
+        campsenha.sendKeys("1234");
+        loginbutton.click();
+    }
+
 }
