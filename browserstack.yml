@@ -1,0 +1,17 @@
+userName: pedrofranco_poBsEN
+accessKey: a3vpVKsfRzDejQBApzsG
+framework: testng
+app: bs://6a152d7daa1803ba4cdb78292e836b0d6af139fe
+platforms:
+  - platformName: android
+    deviceName: Samsung Galaxy S22 Ultra
+    platformVersion: 12.0
+  - platformName: android
+    deviceName: Google Pixel 7 Pro
+    platformVersion: 13.0
+  - platformName: android
+    deviceName: OnePlus 9
+    platformVersion: 11.0
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample

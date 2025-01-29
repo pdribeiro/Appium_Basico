@@ -37,7 +37,13 @@ public class TesteUniversal {
         Screenlogin = new ScreenLogin(driver);
 
         }else {
-
+            capabilities.setCapability("browserstack.user","pedrofranco_poBsEN");
+            capabilities.setCapability("browserstack.key","a3vpVKsfRzDejQBApzsG");
+            capabilities.setCapability("app","bs://6a152d7daa1803ba4cdb78292e836b0d6af139fe");
+            capabilities.setCapability("device","Google Pixel 3");
+            capabilities.setCapability("os_version","9.0");
+            driver = new AndroidDriver<RemoteWebElement>(new URL("http://hub.browserstack.com/wd/hub"), capabilities);
+            Screenlogin = new ScreenLogin(driver);
 
         }
     }
