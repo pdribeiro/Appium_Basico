@@ -6,13 +6,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebElement;
-
 import java.io.File;
-import java.lang.reflect.MalformedParameterizedTypeException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class TesteLogin {
+public class TesteLoginAndroid {
 
     private static ScreenLogin Screenlogin;
     private static AppiumDriver<RemoteWebElement> driver;
