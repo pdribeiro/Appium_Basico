@@ -13,6 +13,13 @@ Instale o Node.js a partir do seguinte link: [Node.js Download](https://nodejs.o
 ### 3. Appium
 Instale o Appium seguindo as instruções oficiais: [Guia de Instalação do Appium](https://appium.io/docs/en/about-appium/getting-started/).
 
+#### Comandos para atualizar o Appium 2:
+```sh
+npm install -g appium
+appium driver install xcuitest
+appium driver install uiautomator2
+```
+
 ### 4. Appium Desktop
 Baixe o Appium Desktop na página oficial do GitHub: [Appium Desktop Releases](https://github.com/appium/appium-desktop/releases/).
 
